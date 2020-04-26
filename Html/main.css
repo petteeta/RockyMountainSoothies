@@ -1,0 +1,1331 @@
+/*----------------------------------------------------------*/
+/* Rocky Mountain Soothies MAIN Cascading Style Sheet - main.css  */
+/* Author: Steve Pettee, Glacier Web Creative */
+/* www.GlacierWebCreative.com */
+/*----------------------------------------------------------*/
+
+
+
+/* General
+------------------------------------------------------------*/
+* {
+    padding: 0; margin: 0;
+    font-family: "Times New Roman";
+    }
+    
+@font-face {
+    font-family: 'Always Forever';
+    src: url('fonts/Always Forever Bold.ttf');
+    }
+    
+@font-face {
+    font-family: 'Segoe Print';
+    src: url('fonts/segoepr.ttf');
+    }
+    
+@font-face {
+    font-family: 'CAC Moose';
+    src: url('fonts/CAC Moose.ttf');
+    }
+    
+    
+    
+ul {
+     list-style: none;
+     }
+     
+p {
+     width: 1100px;
+     margin: 20px 0 20px 0px;
+     font-family:  "Times New Roman";
+     font-size: 20px;
+     font-style: italic;
+     font-weight: 500;
+     text-indent: 30px;
+     color: #fbfaf8;
+     text-align: center;
+     }
+     
+p#bttp {
+     clear: both !important;
+     width: 900px !important;
+     text-align: right !important;
+     text-decoration: underline;
+     text-indent: 0px;
+     font-family: "Times New Roman";
+     font-size: 20px !important;
+     color: yellow !important;
+     padding: 30px 0 0 0 !important;
+     margin: 0 0 0 0 !important;
+     }          
+     
+sup {
+     font-size: 14px;
+     }
+
+div.spacer20 {
+     width: 100%;
+     height: 20px;
+     clear: both;
+     }
+     
+.underline {
+     text-decoration: underline;
+     }
+     
+     
+     
+#redFont {
+     color: red;
+     font-size: 28px;
+     }
+     
+#yellowFont {
+     color: #ffff37;
+     }
+     
+#blueFont {
+     color: blue;
+     font-size: 28px;
+     }
+     
+div#yellow-center {
+     width: 100%;
+     margin: 0 auto;
+     color: yellow;
+     text-align: center;
+     }
+     
+body#main {
+    position: relative;
+    background: #b8b5b2;
+    }
+    
+div#wrapper {
+     position: relative;
+     width: 1100px;
+     background: #807d79;    /*--- site background ---*/
+     margin: 0 auto;
+     margin-top: 20px;
+     margin-bottom: 0px;
+     }
+     
+
+    
+    
+    
+    
+/* Header ------------------------------------------------------------*/
+div#header {
+     position: relative;
+     width: 1100px;
+     margin: 0 auto;
+     }
+     
+div#header img#main {
+     display: block;
+     padding: 0px 0px 0px 0px;
+     margin: 0 auto;
+     }
+     
+     
+     
+div#header img#cabin {
+     position: absolute;
+     top: 380px;
+     left: 35px;
+     }     
+     
+
+     
+     
+     
+
+
+
+/* Navigation ------------------------------------------------------------*/     
+div#navigation {
+     position: relative;
+     width: 1100px;
+     height: 80px;
+     margin: 0 auto;
+     margin: 8px 0px 0px 0px;
+     }
+     
+div#navigation ul#ul1 {
+     position: relative;
+     margin: -15px 0px 0px 20px;
+     padding: 0px 0px 0px 0px;
+     }
+     
+div#navigation ul#ul1 li {
+     width: 120PX;
+     height: 60px;
+     background: url("images/navimg.png") 0 0 no-repeat;
+     margin: 0 0 0 48px;
+     float: left;
+     padding: 15px 0px 0px 0px;
+     text-align: center;
+     }
+     
+div#navigation ul#ul1 li.twolines {
+     width: 120px;
+     height: 60px;
+     background: url("images/navimg.png") 0 0 no-repeat;
+     margin: 0px 0px 0px 48px;
+     float: left;
+     padding: 5px 0px 0px 4px;
+     text-align: center;
+     }
+     
+div#navigation ul li a {
+     font: 15px "Verdana";
+     vertical-align: middle;
+     text-align: center;
+     text-decoration: underline;
+     color: black;
+     }
+     
+div#navigation ul li a:hover {
+     font-style: italic;
+     font-weight: 60;
+     color: #ec008b;
+     }
+     
+div#navigation img#sprinkle-pumpkin-man {
+     display: block;
+     position: absolute;
+     top: -25px;
+     left: 988px;
+     }
+
+
+
+
+
+
+/* Content -------------------------------------------------------------*/     
+div#content {
+     position: relative;
+     width: 1100px;
+     margin: 0px 0 30px 0;
+     padding: 15px 0 0 0;
+     clear: both;
+     }
+     
+div#content p {
+     width: 900px;
+     margin: 0px 50px 0px 100px;
+     font-family:  "Times New Roman";
+     font-size: 20px;
+     font-style: italic;
+     font-weight: 500;
+     text-align: left;
+     text-indent: 30px;
+     color: #fbfaf8;
+     }
+     
+div#content h1#first {
+     width: 950px;
+     margin: 0 auto;
+     margin-top: 100px;
+     margin-bottom: 30px;
+     font-family: CAC Moose Regular;
+     font-size: 36px;
+     
+     color: yellow;
+     text-shadow: 6px 0px 6px #000000;
+     text-align: center;
+     }
+     
+div#content h1#second {
+     width: 980px;
+     margin:0 auto;
+     margin-top: 30px;
+     margin-bottom: 0px;
+     font-family: CAC Moose Regular;
+     font-size: 26px;
+     
+     color: black;
+     text-align: center;
+     }
+     
+div#content h1#third {
+     width: 980px;
+     margin:0 auto;
+     margin-top: 50px;
+     margin-bottom: 10px;
+     font-family: CAC Moose Regular;
+     font-size: 24px;
+     
+     color: black;
+     text-align: center;
+     }
+     
+div#content p#title {
+     text-align: center;
+     margin: 70px 0 0 100px;
+     text-indent: 0px;
+     }
+     
+       
+    
+/* Other Intros -------------------------------------------------------------*/ 
+div#content img#coolersIntro {
+     position: relative;
+     margin: -10px 0px 0px 150px;
+     }
+     
+div#content a#coolersButton {
+     display: block;
+     position: relative;
+     width: 170px;
+     height: 85px;
+     margin: -20px 30px 20px 500px;
+     }
+     
+
+/* Specials Boxes -------------------------------------------------------------*/  
+div#content img#leftSideTop {
+     position: relative;
+     display: block;
+     float: left;
+     margin-left: 200px;
+     }
+     
+div#content img#specialsBox {
+     position: relative;
+     display: block;
+     float: right;
+     padding: 35px 50px 0px 0px;
+     margin: 0px 0 0 0;
+     }
+     
+div#content img#newFlannelsHomePage2018 {
+     position: relative;
+     display: block;
+     margin: 60px 0 60px 30px;
+     }
+     
+div#content img#homePageSpecialsFullWidth {
+     position: relative;
+     display: block;
+     margin: 0px 0px 0px 0px;
+     }
+     
+div#content img#leftSideBottom {
+     position: relative;
+     display: block;
+     margin: 0px 0 0 0px;
+     
+     }
+     
+     
+/* Corner Buttons and Men's Store Buttons -------------------------------------------------------------*/      
+div#content a#cornerButton1 {
+     display: block;
+     position: absolute;
+     width: 150px;
+     height: 75px;
+     top: -18px;
+     left: 480px;
+     margin: 0px 0px 0px 0px;
+     }     
+     
+div#content a#cornerButton2 {
+     display: block;
+     position: absolute;
+     width: 130px;
+     height: 65px;
+     top: 4700px;
+     left: 850px;
+     margin: 0px 0px 0px 0px;
+     }               
+     
+div#content a#menstoreButton1 {
+     position: absolute;
+     display: block;
+     top: -20px;
+     left: 630px;
+     width: 150px;
+     height: 75px;
+     margin: 0;
+     }
+     
+div#content img#arrows {
+     display: block;
+     position: absolute;
+     top: -35px;
+     left: 565px;
+     margin: 0;
+     }      
+     
+     
+     
+     
+          
+/* Men's Store Area -------------------------------------------------------------*/      
+div#content img#mensStoreIntro {
+     display: block;
+     float: left;
+     margin: 0px 0 0 100px;
+     padding: 0 0 0 0px;
+     }
+     
+div#content img#lastDay {
+     display: block;
+     position: absolute;
+     width: 250px;
+     height: 184px;
+     top: -290px;
+     left: 305px;
+     }
+     
+div#content img#clearanceTime {
+     display: block;
+     float: left;
+     margin: 0px 0 0 100px;
+     padding: 0 80px 0 0px;
+     }
+     
+     
+     
+     
+     
+     
+     
+/* Wrap and Pad Area -------------------------------------------------------------*/     
+div#content div#wrapAndPad {
+     position: relative;
+     height: 100px;
+     margin: 0px 0 20px 0;
+     clear: both;
+     }
+     
+div#content div#wrapAndPad img#wrap {
+     position: absolute;
+     top: 10px;   
+     left: 160px;
+     }
+     
+div#content div#wrapAndPad p#wrap-text {
+     position: absolute;
+     top: 120px;
+     left: 120px;
+     margin: 0px;
+     }
+     
+div#content div#wrapAndPad p#microwavable {
+     position: absolute;
+     top: 30px;
+     left: 315px;
+     color: yellow;
+     font-family: CAC Moose;
+     font-size: 26px;
+     font-style: normal;
+     }
+     
+     
+div#content div#wrapAndPad img#soothie {
+     position: absolute;
+     top: 10px;    
+     left: 800px;
+     }
+     
+div#content div#wrapAndPad p#soothie-text {
+     position: absolute;
+     top: 120px;
+     left: 745px;
+     margin: 0px;
+     }
+     
+     
+div#content img#state-outline {
+     position: relative;
+     margin: 0px 0px 0px 460px;
+     }
+     
+
+     
+     
+     
+div#content ul#soothieElements {
+     margin: -15px 0 40px 120px;
+     list-style-image: url('images/yellowDot.png');
+     font-family:  "Times New Roman";
+     font-size: 20px;
+     font-style: italic;
+     font-weight: 500;
+     text-align: left;
+     text-indent: 0px;
+     color: #fbfaf8;
+     }
+     
+div#content div#wysiwyg {
+     position: relative;
+     width: 900px;
+     margin: -100px 0 20px 150px;
+     }
+     
+div#content div#wysiwyg img {
+     padding: 0 90px 0 0;
+     }
+     
+div#content div#wysiwyg p {
+     text-align: center;
+     }      
+     
+div#content img#workshop {
+     position: relative;
+     margin: 0px 0px 0px 430px;
+     }
+     
+/* Our Shop -------------------------------------------------------------*/ 
+div#shop-wrapper {
+     position: relative;
+     width: 1100px;
+     height: 3670px;
+     background: #807d79;    /*--- site background ---*/
+     margin: 0 auto;
+     margin-top: 30px;
+     margin-bottom: 30px;
+     padding: 30px 0 0 0;
+     }
+     
+div#shop-wrapper img#sprinkle-left {
+     display: block;
+     position: absolute;
+     top: 180px;
+     left:60px;
+     }
+     
+div#shop-wrapper img#sprinkle-right {
+     display: block;
+     position: absolute;
+     top: 250px;
+     left: 930px;
+     }      
+     
+img#quaintshop {
+     display: block;
+     width: 700px;
+     height: 439px;
+     margin: 0 auto;
+     }
+                      
+h1#shop {
+     margin: 0px 0px 30px 0px;
+     font-family:  "Times New Roman";
+     font-size: 30px;
+     font-style: italic;
+     font-weight: 500;
+     color: #fbfaf8;
+     text-align: center;
+     }
+     
+div#shopPics {
+     position: relative;
+     width: 100%;
+     
+     }
+     
+div#shopPics img {
+     position: relative;
+     padding: 0 0 0 60px;
+     }            
+     
+     
+     
+/* About
+-------------------------------------------------------------*/
+img#leaf-sprinkle-about {
+     display: block;
+     position: absolute;
+     top: 30px;
+     left: 830px;
+     }  
+            
+img#pattyPic {
+     margin: 0 0 0 100px;
+          }          
+h1#headerAbout {
+     font-family: "Always Forever";
+     font-size: 60px;
+     color: yellow;
+     padding: 0 0 0 100px;
+     }
+     
+div#about-sprinkle-bottom {
+     position: relative;
+     }
+          
+div#about-sprinkle-bottom img#sprinkle-about {
+     display: block;
+     position: absolute;
+     top: -40px;
+     left: 100px;
+     }
+          
+     
+     
+         
+
+/* Designs, Colors and Sizes Page ------------------------------------*/
+/* Corner ------------------------------------------------------------*/
+div#corner {
+     position: relative;
+     width: 400px;
+     margin: 0px 0px 50px 40px;
+     padding: 0px 0px 0px 0px;
+     float: right;
+     }
+     
+div#corner div#corner-text {
+     position: relative;
+     background-image: url("images/leg-extensions.png");
+     background-position: 0px 900px;
+     margin: -470px 0 0 0;
+     padding: 0px 0px 0px 0px;
+     }
+     
+div#corner div#corner-text img {
+     display: block;
+     margin: 0 auto;
+     padding-left: 5px;
+     }
+     
+div#corner div#corner-text p.corner-item,
+div#corner div#corner-text p.sub-corner-item {
+     width: 250px;
+     padding: 0 0 0 75px;
+     font-family:  "CAC Moose";
+     font-size: 20px;
+     font-style: italic;
+     font-weight: 500;
+     color: #cee6e0;
+     text-align: center;
+     text-indent: 0px;
+     margin: 0px;
+     }
+     
+div#designs div#corner div#corner-text a#coolersButton {
+     display: block;
+     position: relative;
+     width: 150px;
+     height: 75px;
+     z-index: 50;
+     margin: 0px 0px 30px 130px;
+     }
+     
+div#corner div#corner-text p.sub-corner-item {
+     width: 250px;
+     font-size: 17px;
+     padding: 0 0 0 75px;
+     }
+     
+div#corner img#cornerBottom {
+     position: absolute;
+     margin: 0px 0px 0px 0px !important;
+     padding: 0px 0px 0px 0px !important;
+     left: 0px;
+     bottom: -30px;
+     }     
+     
+     
+     
+     
+     
+     
+/* Swatches -------------------------------------------------------------*/          
+div#designs {
+     position: relative;
+     }     
+     
+div#designs, div#designs p {
+     position: relative;
+     width: 970px;
+     margin: 0px 0px 0px 80px;
+     padding: 0px 0px 0px 0px;
+     }
+     
+div#designs p {
+     margin: 0px 0px 0px 20px;
+     line-height: 150%;
+     text-align: left;
+     clear: none;
+     }
+     
+div#designs h1, div#designs h2 {
+     margin: 0px 0px 0px 0px;
+     font-family:  "Times New Roman";
+     font-size: 40px;
+     font-style: italic;
+     font-weight: 500;
+     text-indent: 0px;
+     color: #fbfaf8;
+     text-align: center;
+     }
+     
+div#designs h1#inswatches {
+     clear: both;
+     margin: 20px 0px 0px 0px;
+     padding: 20px 0px 0px 0px;
+     color: yellow;
+     }
+     
+div#designs h2 {
+     font-size: 18px;
+     }
+     
+div#designs p#colorHeaders {
+     clear: both !important;
+     width: 100%;
+     text-align: left;
+     text-indent: 0px;
+     font-family: "Times New Roman";
+     font-size: 40px;
+     color: yellow;
+     padding: 30px 0 0 30px;
+     margin: 0px 0 0 -10px !important;
+     }
+     
+div#designs a:link, a:visited { 
+     color: rgb(255,255,0);   /* yellow */
+     }
+     
+div#designs a:hover { 
+     color: #ec008b;
+     }     
+     
+     
+      
+     
+div#designs div.designs {
+     position: relative;
+     width: 150px;
+     float: left;
+     margin: 10px 15px 20px 23px;
+     }
+     
+div#designs div.designs div.swatch {
+     position: relative;
+     width: 150px;
+     }
+     
+div#designs div.designs p.text {
+     width: 170px;
+     height: 40px;
+     margin: 0px 0px 0px -10px;
+     text-align: center;
+     text-indent: 0px;
+     line-height: 80%;
+     }
+     
+     
+     
+     
+     
+     
+     
+     
+     
+div#designs div#sprinkle-div {
+     position: relative;
+     }
+     
+div#designs div#sprinkle-div img#sprinkle-swatches-stalks {
+     position: absolute;
+     top: 100px;
+     left: 800px;
+     }
+     
+     
+div#designs div#sprinkle-div img#sprinkle-swatches-2-leaves {
+     position: absolute;
+     top: 250px;
+     left: 30px;
+     }      
+     
+     
+     
+     
+     
+/* Aqua Coolers
+-------------------------------------------------------------*/
+div#designs div#coolers {
+     clear: both;
+     }
+     
+div#designs div#coolers p {
+     width: 900px;
+     }
+     
+div#designs div#coolers img#coolersCategories {
+     display: block;
+     margin: 0 0 60px 70px;
+     }
+     
+div#designs div#coolers div#patriotic_1 {
+     position: relative;
+     margin: 50px 0 50px 80px;
+     }
+     
+div#designs div#coolers div#patriotic_2 {
+     position: relative;
+     margin: 0px 0 70px 180px;
+     }
+     
+div#designs div#coolers div#patriotic_1 img {
+     padding-right: 55px;
+     }
+     
+div#designs div#coolers div#patriotic_2 img {
+     padding-right: 55px;
+     }
+
+div#designs  div#coolers img#coolerSwatches {
+     position: relative;
+     display: block;
+     margin: 30px 0 30px -30px;
+     }
+     
+div#designs div#coolers a#coolersOrderButton {
+     display: block;
+     position: relative;
+      width: 300px;
+     height: 150px;
+     z-index: 50;
+     margin: 0px 0px 30px 330px;
+     }
+     
+     
+     
+     
+
+ /* Men's Store
+-------------------------------------------------------------*/    
+div#menstore {
+     position: relative;
+     }
+     
+div#designs img#logWithLeaves {
+     display: block;
+     padding: 30px 0px 0px 65px;
+     } 
+     
+div#designs div#menstore img#mensStoreCabin {
+     display: block;
+     padding: 0px 0 0px 0;
+     } 
+     
+div#designs div#menstore p {
+     width: 900px !important;
+     }
+     
+
+     
+
+     
+     
+     
+
+/* Order Page
+-------------------------------------------------------------*/
+form#order-form {
+     margin: 0 0 30px 100px;
+     font-size: 20px; 
+     }
+     
+form#order-form ul {
+     position: relative;
+     list-style: none;
+     margin: 0px;
+     }
+     
+form#order-form ul li {
+     padding: 0 0 10px 50px;
+     width: 700px;
+     font-style: italic;
+     }
+     
+     
+
+form#order-form h1#order-header,  form#order-form h2#order-header-sub {
+     width: 1100px;
+     clear: both;
+     margin: 20px 0 20px -100px;
+     font-family:  "Times New Roman";
+     font-size: 28px;
+     font-style: italic;
+     font-weight: 500;
+     color: #fbfaf8;
+     text-align: center;
+     }
+     
+form#order-form img#blurb-order-page-top {
+     position: absolute;
+     top: 780px;
+     left: 65px;
+     }
+     
+form#order-form h2#order-header-sub {
+     font-size: 25px;
+     color: yellow;
+     }
+     
+form#order-form h2#place-order, div#designs h2#place-order {
+     font-family: "Always Forever";
+     font-size: 60px;
+     color: yellow;
+     }
+     
+form#order-form p#order-paragraph {
+     width: 900px;
+     margin: 0px 50px 0px 0px;
+     font-family:  "Times New Roman";
+     font-size: 20px;
+     font-style: italic;
+     font-weight: 500;
+     text-align: left;
+     text-indent: 0px;
+     color: #fbfaf8;
+     }     
+     
+form#order-form img#order-wrap {
+     display: block;
+     margin: 0 0 0 380px;
+     }
+     
+form#order-form p#wrap-text {
+     width: 120px;
+     height: 50px;
+     margin: 0 0 0 380px;
+     color: black;
+     
+     }
+     
+
+     
+     
+     
+     
+     
+     
+     
+     
+form#order-form ul#header-column-text {
+     width: 1000px;
+     height: 30px;
+     margin-left: -30px;
+     color: black;
+     font-weight: bold;
+     
+     }     
+     
+     
+     
+form#order-form ul#header-column-labels {
+
+     width: 1000px;
+     height: 30px;
+     margin-left: -30px;
+     color: yellow;
+     }
+     
+form#order-form ul#header-column-pics {
+     width: 1000px;
+     height: 105px;
+     margin-left: -30px;
+     }          
+     
+form#order-form ul#header-column-pics li img {
+     text-align: center;
+     }          
+     
+     
+     
+form#order-form ul#header-column-labels li#style,
+form#order-form ul#header-column-text li#style,
+form#order-form ul#header-column-pics li#style {
+     width: 19%;
+     float: left;
+     padding: 0 0 0 0;
+     text-align: center;
+     margin: 0 auto;
+     }
+     
+form#order-form ul#header-column-labels li#size,
+form#order-form ul#header-column-text li#size, 
+form#order-form ul#header-column-pics li#size {
+     width: 24%;
+     float: left;
+     padding: 0 0 0 0;
+     text-align: center;
+     }     
+
+form#order-form ul#header-column-labels li#weight,
+form#order-form ul#header-column-text li#weight,
+form#order-form ul#header-column-pics li#weight {
+     width: 24%;
+     float: left;
+     padding: 0 0 0 0;
+     text-align: center;
+     }     
+     
+form#order-form ul#header-column-labels li#price,
+form#order-form ul#header-column-text li#price,
+form#order-form ul#header-column-pics li#price {
+     width: 29%;
+     float: left;
+     padding: 0 0 0 0;
+     text-align: center;
+     }     
+     
+     
+     
+form#order-form ul img#lastDay {
+     display: block;
+     position: absolute;
+     top: 100px;
+     left: -90px;
+     margin: 0px 0px 0px 0px;
+     }          
+     
+     
+     
+form#order-form ul li#order {
+     padding: 0 0 10px 0px;
+     width: 900px;
+     font-style: italic;
+     }
+     
+form#order-form ul li label {
+     width: 250px;
+     float: left;
+     padding-right: 2px;
+     text-align: right;
+     color: #fbfaf8;
+     }
+     
+form#order-form ul li#HappyNewYearImageOrder1 {
+     display: block;
+     position: absolute;
+     top: 600px;
+     left: -70px;
+     margin: 0px 0px 0px 0px;
+     }          
+     
+form#order-form ul img#ord-ex {
+     display: block;
+     margin: 0px 0px 0px 125px;
+     }    
+     
+form#order-form ul li label#ord-details {
+     width: 140px;
+     }
+     
+form#order-form ul#order-information {
+     position: relative;
+     }
+     
+form#order-form ul#order-information img#sprinkle-order-page-mid-1 {
+     position: absolute;
+     top: 50px;
+     left: -70px;
+     }
+     
+     
+     
+
+
+
+form#order-form ul div#cards-bbb {
+     position: relative;
+     height: 150px;
+     padding: 0 0 30px 100px;
+          }     
+     
+form#order-form ul div#cards-bbb img#cr-cards {
+     display: block;
+     float: left;
+     }
+     
+form#order-form ul div#cards-bbb img#square {
+     display: block;
+     float: left;
+     margin: 40px 80px 0px 130px;
+     }
+     
+form#order-form ul div#cards-bbb div#BBBwrapper {
+     float: left;
+     margin: 50px 0 0 20px;
+     background: white;
+     }
+               
+form#order-form ul div#cards-bbb div#BBBwrapper img#BBB {
+     margin: 0px 0 0 0px;
+     padding: 3px 0 0 3px;
+     }
+
+     
+     
+     
+
+form#order-form ul#order-information img#sprinkle-order-page-mid-2 {
+     position: absolute;
+     top: 1400px;
+     left: 0px;
+     }
+     
+form#order-form ul#order-information img#sprinkle-order-page-mid-3 {
+     position: absolute;
+     top: 1400px;
+     left: 0px;
+     }
+
+form#order-form ul li input.personal {
+     width: 330px;
+     height: 20px;
+     font-size: 16px;
+     background: rgb(231,231,231);
+     }
+form#order-form ul li textarea.order {
+     width: 655px;
+     margin: 5px 0 0 0px;
+     font-size: 16px;
+     background: rgb(231,231,231);
+     }
+     
+form#order-form ul li textarea.personal {
+     width: 330px;
+     margin: 5px 0 0 0;
+     font-size: 16px;
+     background: rgb(231,231,231);
+     }     
+form#order-form ul li input.order {
+     width: 330px;
+     height: 20px;
+     font-size: 16px;
+     background: rgb(231,231,231);
+     }
+
+     
+     
+form#order-form ul li#submit-reset {
+     padding: 15px 0 0 372px;
+     margin: 0;
+     }
+     
+form#order-form ul li#submit-reset button {
+     height: 80px;
+     margin: 0 0 0 0;
+     color: #fbfaf8;
+     padding: 5px;
+     border: 3px solid #fbfaf8;
+     background: #807d79;
+     font-size: 20px;
+     }
+     
+form#order-form div#sprinkle {
+     position: relative;
+     }
+     
+form#order-form div#sprinkle img#sprinkle-order-page-mid-4 {
+     position: absolute;
+     top: -930px;
+     left: 740px;
+     }
+     
+form#order-form img#HappyNewYearImageOrder2 {
+     display: block;
+     position: absolute;
+     top: 0px;
+     left: 730px;
+     }
+     
+
+     
+     
+form#order-form p#order-paragraph span#rust {
+     color:  #fc2929;
+     } 
+
+.text-center {
+     text-align: center;
+     }
+
+
+a#doorLink {
+     margin: 0 0 0 280px;
+     }     
+
+
+
+p.leaveOrder {
+     
+     float: right;
+     width: 280px;
+    
+     color: yellow;
+     margin: 40px 130px 0px 0px;
+     padding: 0 0 0px 0;
+     font-size: 15px;
+     text-align: center;
+     }
+
+
+
+/* Contact Page
+-------------------------------------------------------------*/
+div#contact {
+     position: relative;
+     margin: 170px 0 40px 100px;
+     clear: both;
+     }
+     
+     
+     
+div#contact p {
+     width: 950px;
+     font-family:  "Times New Roman";
+     font-size: 22px;
+     font-style: italic;
+     font-weight: 500;
+     text-align: left;
+     color: #fbfaf8;
+     }
+     
+     
+          
+div#contact p.contact-category {
+     margin: 40px 0 0 0;
+     text-align: center;
+     text-indent: 0px;
+     }
+     
+div#contact img#contact-sprinkle-top {
+     display: block;
+     position: absolute;
+     top: -145px;
+     left: 200px;
+     } 
+     
+div#contact p.contact-information {
+     margin: 0px 0 0 0px;
+     text-align: center;
+     text-indent: 0px;
+     }
+     
+div#contact p#getTo {
+     width: 600px;
+     text-indent: 0;
+     text-align: center;
+     }     
+     
+div#contact div#location {
+     width: 900px;
+     height: 700px;
+     margin: 40px 0 0 150px;
+     }
+     
+
+     
+div#contact a#doorLink {
+     margin: 0 0 0 300px;
+     }     
+
+
+
+div#contact p.leaveContact {
+     
+     float: right;
+     width: 300px;
+    
+     color: yellow;
+     margin: 30px 120px 0px 0px;
+     padding: 0 0 0px 0;
+     font-size: 15px;
+     text-align: center;
+     }
+
+
+
+/* Footer
+-------------------------------------------------------------*/
+div#footer {
+     position: relative;
+     clear: both;
+     width: 1100px;
+     height: 200px;
+     margin: 0 auto;
+     margin-bottom: 20px;
+     background: #807d79;    /*--- site background ---*/
+     }   
+    
+div#footer img#made-in {
+     width: 600px;
+     float: left;
+     padding: 0 0 0 40px;
+     }
+
+div#footer div#BBBwrapper {
+     position: absolute;
+     width: 204px;
+     height: 46px;
+     top: 30px;
+     left: 653px;
+     background: white;
+     }
+     
+div#footer div#memberSince {
+     position: absolute;
+     width: 204px;
+     height: 20px;
+     top: 60px;
+     left: 653px;
+     }
+     
+div#footer div#memberSince p {
+     width: 204px;
+     font-size: 16px;
+     font-weight: bold;
+     color: #035c87;
+     padding: 0 30px 0 0;
+     text-indent: 0px;
+     }
+     
+div#footer div#reviewWrapper {
+     position: absolute;
+     width: 165px;
+     height: 83px;
+     top: 0px;
+     left: 860px;
+     
+     }
+               
+div#footer img#BBB {
+     margin: 0px 0 0 0px;
+     padding: 3px 0 0 3px;
+     }
+          
+div#footer p#copyright {
+     width: 1100px;
+     clear: both;
+     margin: 0 auto;
+     padding: 10px 0 20px 0px;
+     font: 18px  "Georgia","Times New Roman";
+     color: #2a1f19;
+     font-weight: 700;
+     text-align: center;
+     }      
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+         
